@@ -1,0 +1,112 @@
+body {
+    background-image: url('https://media.istockphoto.com/id/1221648524/photo/a-black-number-slider-on-a-table-of-the-game-of-foosboll-top-view-number-sequence-concept.jpg?b=1&s=170667a&w=0&k=20&c=Geo4pJZDIoSOBqhZfs3uz2WRTS5CLJrFijsXzOeR0Pc=');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-color: grey;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    border: 1px solid black;
+    margin: 20px;
+    border-radius: 10px;
+    height: auto;
+    gap: 2rem;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.welcome {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+span {
+    font-size: 40px;
+}
+
+.Winning {
+    color: green;
+    border: 1px solid green;
+    border-radius: 30px;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.Losing {
+    color: Red;
+    border: 1px solid red;
+    border-radius: 30px;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.scoreTab {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.selection {
+    display: flex;
+    justify-content: center;
+}
+
+#playingTo {
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#playingTo:hover {
+    border: 1px solid orange;
+}
+
+button {
+    margin: 10px;
+    border-radius: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+    border: 1px solid orange;
+}
+
+.btns1 {
+    display: flex;
+    justify-content: center;
+}
+
+.btns2 {
+    display: flex;
+    justify-content: center;
+}
+
+.winnerArea {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+@media (width<500px) {
+    .winnerArea {
+        font-size: 1rem;
+    }
+}
