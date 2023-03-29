@@ -10,9 +10,9 @@ const App = () => {
     const [winText, setWinText] = useState('')
 
     const p1Score = () => {
-        if (number1 != score) {
+        if (number1 !== score) {
             setNumber1(number1 + 1)
-            if (number1 == score - 1) {
+            if (number1 === score - 1) {
                 setNumber1(number1 + 1)
                 setWin(true)
                 setp1WinLose('Winning')
@@ -22,9 +22,9 @@ const App = () => {
         }
     }
     const p2Score = () => {
-        if (number2 != score) {
+        if (number2 !== score) {
             setNumber2(number2 + 1)
-            if (number2 == score - 1) {
+            if (number2 === score - 1) {
                 setNumber2(number2 + 1)
                 setWin(true)
                 setp2WinLose('Winning')

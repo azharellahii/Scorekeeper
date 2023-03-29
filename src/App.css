@@ -67,11 +67,18 @@ span {
 .selection {
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+label {
+    font-size: 30px;
 }
 
 #playingTo {
     cursor: pointer;
     border-radius: 20px;
+    font-size: 20px;
 }
 
 #playingTo:hover {
@@ -93,9 +100,36 @@ button:hover {
     justify-content: center;
 }
 
+.btn1 {
+    padding: 10px;
+    font-size: 30px;
+}
+
+.btn1:hover {
+    transform: scale(1.2);
+}
+
+.btn2 {
+    padding: 10px;
+    font-size: 30px;
+}
+
+.btn2:hover {
+    transform: scale(1.2);
+}
+
 .btns2 {
     display: flex;
     justify-content: center;
+}
+
+.reset {
+    padding: 10px;
+    font-size: 30px;
+}
+
+.reset:hover {
+    transform: scale(1.2);
 }
 
 .winnerArea {
